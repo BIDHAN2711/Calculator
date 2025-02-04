@@ -1,0 +1,107 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container
+{
+    
+    height: 75vh;
+    margin-top: 6%;
+    justify-content: center;
+    
+}
+
+.container2
+{
+    padding: 20px;
+    margin-left: 40vw;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    height: 55vh;
+    width: 22vw;
+    background-color: rgb(88, 87, 87);
+    border-radius: 20px;
+}
+
+.box
+{
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    height: 70px;
+    width: 70px;
+    border: 2px black solid;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 50px;
+    font-weight: 900;
+    background-color: grey;
+}
+
+.box:hover
+{
+    transition: 0.5s;
+    background-color: white;
+}
+
+#input
+{
+    display: block;
+    padding-top: 10px;
+    height: 30px;
+    width: 11.75vw;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 20px;
+    margin-right: 10px;
+    border: solid black 3px;
+    
+    
+}
+
+
+
+.enter
+{
+    display: flex;
+    margin-right: 35.5%;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    margin-left: 40%;
+    
+}
+
+.answer
+{
+    
+    padding-bottom: 10px;
+    margin-left: 40%;
+}
+
+#input1
+{
+    background-color: aqua;
+    display: block;
+    padding-top: 10px;
+    height: 30px;
+    width: 12.1vw;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 20px;
+    width: 40.3%;
+}
+
+#input2
+{
+    display: block;
+    padding-top: 10px;
+    height: 30px;
+    width: 11.75vw;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 20px;
+    margin-right: 10px;
+    border: solid black 3px;
+}
